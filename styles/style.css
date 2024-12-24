@@ -2,6 +2,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 183px;
+  flex-grow: 1;
 }
 
 .content-section {
