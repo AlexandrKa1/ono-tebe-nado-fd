@@ -13,7 +13,7 @@ main {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 80px;
+  padding: 92px 24px;
 }
 
 .header__links-list {
@@ -22,7 +22,7 @@ main {
 }
 
 .header__menu {
-  margin-left: -30px;
+  padding: 30px;
 }
 
 .header__links-list-item {
@@ -59,14 +59,15 @@ main {
 }
 
 .address {
-  width: 240.52px;
-  height: 98px;
+  width: 100%;
+  max-width: 240px;
   font-style: inherit;
 }
 
 .header__address {
   justify-self: end;
   font-style: inherit;
+  margin: 0px 28px;
 }
 
 .address__item {
@@ -93,7 +94,7 @@ main {
   position: absolute;
   z-index: 0;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.4)
+  background-color: rgba(0, 0, 0, 0.6)
 }
 
 .cover__title {
@@ -163,7 +164,7 @@ main {
   background-color: transparent;
   cursor: pointer;
   position: relative;
-  top: -31px;
+  bottom: 28px;
 }
 
 .bet-button:hover {
@@ -204,11 +205,6 @@ main {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-}
-
-.card_type_film,
-.card_type_book,
-.card_type_picture {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
