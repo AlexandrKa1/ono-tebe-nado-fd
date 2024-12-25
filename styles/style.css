@@ -2,7 +2,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 183px;
-  flex-grow: 1;
 }
 
 .content-section {
@@ -303,9 +302,11 @@ main {
 }
 
 .footer {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  padding: 182px 50px;
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 50px 82px 50px;
 }
 
 .footer__social-icon {
